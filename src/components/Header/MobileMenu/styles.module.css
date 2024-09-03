@@ -1,0 +1,52 @@
+.container {
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 80px 40px;
+  background: var(--base-red);
+  border-radius: 0 0 10px 10px;
+  animation: visible 0.5s linear;
+}
+
+.wrapper nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.link {
+  color: #311c1c;
+  transition: color .3s;
+}
+
+.link:active {
+  color: #e1dddd;
+}
+.link:hover {
+  color: #e1dddd;
+}
+.link:focus {
+  color: #e1dddd;
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

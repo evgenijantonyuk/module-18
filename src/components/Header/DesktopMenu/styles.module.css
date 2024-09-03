@@ -1,0 +1,16 @@
+
+
+.link {
+    color: #171616;
+    transition: color .3s;
+}
+
+.link:active {
+    color: #8a8585;
+}
+.link:hover {
+    color: #8a8585;
+}
+.link:focus {
+    color: #8a8585;;
+}
