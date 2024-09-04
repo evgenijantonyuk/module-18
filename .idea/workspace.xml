@@ -10,11 +10,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "git-widget-placeholder": "main",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "/Users/evgenijantonyuk/Desktop/Urban/Jelly Beans Project./node_modules/typescript/lib"
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
 }]]></component>
   <component name="ReactDesignerToolWindowState">
@@ -29,6 +33,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add project" />
     <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
