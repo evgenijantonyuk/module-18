@@ -14,13 +14,14 @@ import Review from "./pages/Review/review";
 
 export const router = createBrowserRouter([
   {
-    path: "/module-18",
+    path: "/",
     element: <Layout />,
     loader: Loader,
     children: [
       {
         index: true,
-        element: <Home /> },
+        element: <Home />,
+      },
       {
         path: "beans",
         element: <BeansPage />,
@@ -35,22 +36,24 @@ export const router = createBrowserRouter([
       },
       {
         path: "recipes",
-        element: <RecipesPage /> },
+        element: <RecipesPage />,
+      },
       {
         path: "history",
-        element: <HistoryPage /> },
+        element: <HistoryPage />,
+      },
       {
         path: "combinations",
         element: <CombinationsPage />,
       },
       {
         path: "review",
-        element: <Review />
+        element: <Review />,
       },
       {
         path: "*",
-        element: <NotFound /> }
-      ,
+        element: <NotFound />,
+      },
     ],
   },
 ]);

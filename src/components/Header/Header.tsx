@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <header>
       <div className={styles.container}>
-        <Link to="/module-18/BeansProject" className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img src={logo} alt="logo" />
           <span>Jelly Belly</span>
         </Link>
