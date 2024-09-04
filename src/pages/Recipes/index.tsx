@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useSelector } from "react-redux";
-import { Error } from "../../components/Error";
-import { Loader } from "../../components/Loader";
-import { RecipeCard } from "../../components/RecipeCard";
+import { Error } from "../../components/Error/Error";
+import { Loader } from "../../components/Loader/Loader";
+import { RecipeCard } from "../../components/RecipeCard/RecipeCard";
 import { RecipesSelector } from "../../Redux/recipes/recipesSelector";
 import { useAppDispatch } from "../../Redux/store";
 import "./styles.css";

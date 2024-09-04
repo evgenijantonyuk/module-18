@@ -1,9 +1,9 @@
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
-import styles from "./styles.module.css";
+import styles from "./Header.module.css";
 import { useIsMobile } from "../../hooks/useMobile";
-import { MobileMenu } from "./MobileMenu";
-import { DesktopMenu } from "./DesktopMenu";
+import { MobileMenu } from "./MobileMenu/MobileMenu";
+import { DesktopMenu } from "./DesktopMenu/DesktopMenu";
 
 export const Header = () => {
   const isMobile = useIsMobile();

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import { Recipe } from "../../types";
-import styles from "./styles.module.css";
+import styles from "./RecipeCard.module.css";
 
 type Props = {
   data: Recipe;

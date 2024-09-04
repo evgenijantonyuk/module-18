@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useSelector } from "react-redux";
-import { Error } from "../../components/Error";
-import { Loader } from "../../components/Loader";
+import { Error } from "../../components/Error/Error";
+import { Loader } from "../../components/Loader/Loader";
 import { historySelector } from "../../Redux/history/historySelector";
 import { useAppDispatch } from "../../Redux/store";
 import "./styles.css";

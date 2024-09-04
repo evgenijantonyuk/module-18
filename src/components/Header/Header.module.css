@@ -10,12 +10,17 @@
   object-fit: contain;
 }
 
+.container nav a {
+  color: #d5260a;
+}
+
 .container nav a:not(:last-child) {
   margin-right: 10px;
 }
 
 .container nav {
   font-size: 18px;
+  font-family: "Lobster", sans-serif;
 }
 .logo {
   display: flex;

@@ -1,9 +1,11 @@
 .wrapper {
+  border: 1px solid black;
   border-radius: 10px;
   padding: 30px 10px;
   text-align: center;
   box-shadow: 0 0 7px rgb(160, 160, 160);
 }
+
 
 .wrapper h3 {
   color: var(--base-red);

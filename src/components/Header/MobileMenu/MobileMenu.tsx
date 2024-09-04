@@ -1,7 +1,7 @@
-import { BurgerMenu } from "../BurgerMenu";
+import { BurgerMenu } from "../BurgerMenu/BurgerMenu";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import s from "./styles.module.css";
+import s from "./MobileMenu.module.css";
 
 export const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

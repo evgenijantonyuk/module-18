@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useSelector } from "react-redux";
-import { Loader } from "../../components/Loader";
+import { Loader } from "../../components/Loader/Loader";
 import { combinationsSelector } from "../../Redux/combinations/combinationsSelector";
 import { useAppDispatch } from "../../Redux/store";
-import { Error } from "../../components/Error";
+import { Error } from "../../components/Error/Error";
 import { getCombinations } from "../../api/combinations";
 import "./styles.css";
 

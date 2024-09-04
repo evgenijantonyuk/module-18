@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useSelector } from "react-redux";
-import { BeanCard } from "../../components/BeanCard";
-import { Error } from "../../components/Error";
-import { Loader } from "../../components/Loader";
+import { BeanCard } from "../../components/BeanCard/BeanCard";
+import { Error } from "../../components/Error/Error";
+import { Loader } from "../../components/Loader/Loader";
 import { beansSelector } from "../../Redux/beans/beansSelector";
 import { useAppDispatch } from "../../Redux/store";
 import "./bean.css";

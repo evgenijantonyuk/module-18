@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { Error } from "../../components/Error";
-import { Loader } from "../../components/Loader";
+import { Error } from "../../components/Error/Error";
+import { Loader } from "../../components/Loader/Loader";
 import { beanSelector } from "../../Redux/bean/beanSelector";
 import { useAppDispatch } from "../../Redux/store";
-import "./styles.css";
+import "./beanPage.css";
 import { getBean } from "../../api/bean";
 
 export const BeanPage = () => {

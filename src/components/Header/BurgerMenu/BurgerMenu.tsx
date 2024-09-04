@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./BurgerMenu.module.css";
 import { FC, Dispatch } from "react";
 
 type Props = {

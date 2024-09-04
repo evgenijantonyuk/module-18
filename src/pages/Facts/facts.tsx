@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useSelector } from "react-redux";
-import { Error } from "../../components/Error";
-import { FactCard } from "../../components/FactCard";
-import { Loader } from "../../components/Loader";
+import { Error } from "../../components/Error/Error";
+import { FactCard } from "../../components/FactCard/FactCard";
+import { Loader } from "../../components/Loader/Loader";
 import { FactsSelector } from "../../Redux/facts/factsSelector";
 import { useAppDispatch } from "../../Redux/store";
-import "./styles.css";
+import "./facts.css";
 import { getFacts } from "../../api/facts";
 
 export const FactsPage = () => {
