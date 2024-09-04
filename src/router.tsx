@@ -14,7 +14,7 @@ import Review from "./pages/Review/review";
 
 export const router = createBrowserRouter([
   {
-    path: "BeansProject",
+    path: "/module-18",
     element: <Layout />,
     loader: Loader,
     children: [
