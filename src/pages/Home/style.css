@@ -1,0 +1,58 @@
+.home_container {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+}
+
+.home_container img:hover {
+  animation: favicon-shake 0.7s ease-in-out 2 alternate;
+}
+
+h1 {
+  margin: 0;
+  color: #ee4a30;
+  margin-bottom: 15px;
+}
+
+.info {
+  text-align: center;
+}
+
+p {
+    color: #ee4a30;;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Lobster", sans-serif;
+  }
+
+
+@keyframes favicon-shake {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+@media (max-width: 868px) {
+  .home_container {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    margin-bottom: 15px;
+  }
+  p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}

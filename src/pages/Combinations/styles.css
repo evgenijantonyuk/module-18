@@ -8,14 +8,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid var(--base-red);
+  border: 1px solid #ee4a30;
   padding: 30px;
   border-radius: 10px;
+  background-color: #e1dddd;
 }
 
 h3 {
-  color: var(--base-red);
+  color: #ee4a30;
   margin-bottom: 20px;
+  font-family: "Lobster", sans-serif;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {

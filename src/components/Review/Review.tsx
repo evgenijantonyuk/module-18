@@ -1,5 +1,5 @@
-import {Link} from "react-router-dom";
-import {FC} from "react";
+import { Link } from "react-router-dom"
+import { FC} from "react"
 
 const Review: FC = () => {
         return (

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import { Bean } from "../../types";
-import styles from "./BeanCard.module.css";
+import s from "./BeanCard.module.css";
 
 type Props = {
   data: Bean;
@@ -9,8 +9,8 @@ type Props = {
 export const BeanCard: FC<Props> = ({ data }) => {
   return (
     <Link
-      to={`bean/${data.beanId}`}
-      className={styles.wrapper}
+      to={`/BeansProject/bean/${data.beanId}`}
+      className={s.wrapper}
       style={{
         background: data.backgroundColor,
       }}

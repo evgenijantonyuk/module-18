@@ -1,8 +1,7 @@
-
-
 .link {
-    color: #171616;
+    color: #ee4a30;
     transition: color .3s;
+    outline: none;
 }
 
 .link:active {

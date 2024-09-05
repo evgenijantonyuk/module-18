@@ -38,4 +38,4 @@ export type HistoryState = State &
 export type RecipesState = State &
   Page & {
     data: Recipe[];
-};
+  };

@@ -1,6 +1,6 @@
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import s from "./Header.module.css";
 import { useIsMobile } from "../../hooks/useMobile";
 import { MobileMenu } from "./MobileMenu/MobileMenu";
 import { DesktopMenu } from "./DesktopMenu/DesktopMenu";
@@ -10,8 +10,8 @@ export const Header = () => {
 
   return (
     <header>
-      <div className={styles.container}>
-        <Link to="/" className={styles.logo}>
+      <div className={s.container}>
+        <Link to="/BeansProject" className={s.logo}>
           <img src={logo} alt="logo" />
           <span>Jelly Belly</span>
         </Link>

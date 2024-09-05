@@ -10,9 +10,9 @@
   object-fit: contain;
 }
 
-.container nav a {
-  color: #d5260a;
-}
+/*.container nav a {*/
+/*  color: #ee4a30;*/
+/*}*/
 
 .container nav a:not(:last-child) {
   margin-right: 10px;
@@ -29,5 +29,5 @@
   font-size: 20px;
   font-weight: 600;
   font-family: "Lobster", sans-serif;
-  color: var(--base-red);
+  color: #d5260a;
 }

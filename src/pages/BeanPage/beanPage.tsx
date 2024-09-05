@@ -5,7 +5,7 @@ import { Error } from "../../components/Error/Error";
 import { Loader } from "../../components/Loader/Loader";
 import { beanSelector } from "../../Redux/bean/beanSelector";
 import { useAppDispatch } from "../../Redux/store";
-import "./beanPage.css";
+import "./styles.css";
 import { getBean } from "../../api/bean";
 
 export const BeanPage = () => {

@@ -1,0 +1,98 @@
+
+.form {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 22px;
+    height: 100vh;
+    padding: 45px;
+    color: #d5260a;
+    background-color: #fab4a8;
+    border: none;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: "Lobster", sans-serif;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.input {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    font-family: "Lobster", sans-serif;
+    color: #d5260a;
+    border: 1px solid #d5260a;
+    outline: none;
+    transition: all ease-in-out .3s;
+    background-color: #fab4a8;
+}
+.input:focus {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.input:hover {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.input:active {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+
+.select {
+    background-color: transparent;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: "Lobster", sans-serif;
+    color: #d5260a;
+    border: 1px solid #d5260a;
+    outline: none;
+}
+
+.select:focus {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.select:hover {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.select:active {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+
+.button {
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #d5260a;
+    outline: none;
+    border: 1px solid #d5260a;
+    box-shadow: 0px 1px 2px #d5260a;
+}
+.button:focus {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.button:hover {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}
+.button:active {
+    background-color: #ea9f93;
+    cursor: pointer;
+    color: #000;
+}

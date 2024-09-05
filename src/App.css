@@ -1,5 +1,5 @@
-:root {
-  --base-red: #e83a4b;
+body {
+  background-color: #f5bfbf;
 }
 
 @font-face {
@@ -39,7 +39,7 @@ h1 {
   margin: 50px 0;
   font-size: 48px;
   text-align: center;
-  font-family: "Lobster", sans-serif;
+  font-family: "Lobster";
   color: var(--base-red);
 }
 

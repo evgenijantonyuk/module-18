@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Fact } from "../../types";
-import s from "./Fact.module.css";
+import s from "./FactCard.module.css";
+
 type Props = {
   data: Fact;
 };

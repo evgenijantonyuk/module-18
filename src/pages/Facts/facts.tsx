@@ -6,7 +6,7 @@ import { FactCard } from "../../components/FactCard/FactCard";
 import { Loader } from "../../components/Loader/Loader";
 import { FactsSelector } from "../../Redux/facts/factsSelector";
 import { useAppDispatch } from "../../Redux/store";
-import "./facts.css";
+import "./styles.css";
 import { getFacts } from "../../api/facts";
 
 export const FactsPage = () => {
