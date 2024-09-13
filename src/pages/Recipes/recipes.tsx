@@ -7,7 +7,7 @@ import { RecipeCard } from "../../components/RecipeCard/RecipeCard";
 import { RecipesSelector } from "../../Redux/recipes/recipesSelector";
 import { useAppDispatch } from "../../Redux/store";
 import "./style.css";
-import { getRecipes } from "../../api/recipes";
+import {getRecipes} from "../../api/recipes";
 
 export const RecipesPage = () => {
   const dispatch = useAppDispatch();
@@ -15,8 +15,11 @@ export const RecipesPage = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    dispatch(getRecipes(page));
-  }, [page]);
+    if (data.length % 15) return;
+    if (data.length / 15 !== page) {
+      dispatch(getRecipes(page));
+    }
+  }, [dispatch, page]);
 
   const load = () => {
     setPage(page + 1);

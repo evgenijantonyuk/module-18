@@ -14,8 +14,11 @@ export const HistoryPage = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    dispatch(getHistory(page));
-  }, [page]);
+    if (data.length % 15) return;
+    if (data.length / 15 !== page) {
+      dispatch(getHistory(page));
+    }
+  }, [dispatch, page]);
 
   const load = () => {
     setPage(page + 1);

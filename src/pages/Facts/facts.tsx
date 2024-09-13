@@ -15,8 +15,11 @@ export const FactsPage = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    dispatch(getFacts(page));
-  }, [page]);
+    if (data.length % 15) return;
+    if (data.length / 15 !== page) {
+      dispatch(getFacts(page));
+    }
+  }, [dispatch, page]);
 
   const load = () => {
     setPage(page + 1);

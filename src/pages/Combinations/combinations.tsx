@@ -15,9 +15,12 @@ export const CombinationsPage = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    dispatch(getCombinations(page));
-  }, [page]);
+    if (data.length % 15) return;
+    if (data.length / 15 !== page) {
+      dispatch(getCombinations(page));
+    }
 
+  }, [dispatch, page]);
   const load = () => {
     setPage(page + 1);
   };

@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ae7b40-96ac-4a92-9a05-f0fda2722c3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BeanCard/BeanCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BeanCard/BeanCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/DesktopMenu/DesktopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/DesktopMenu/DesktopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Beans/beans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Beans/beans.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Combinations/combinations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Combinations/combinations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Facts/facts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Facts/facts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/History/history.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/History/history.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Recipes/recipes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Recipes/recipes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,34 +20,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lbkZr3uoTofd2gDTlkw479HPCX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/evgenijantonyuk/Downloads/Jelly Beans Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/evgenijantonyuk/Downloads/Jelly Beans Project/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evgenijantonyuk/Desktop/Urban/JS/Jelly-Beans-Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/evgenijantonyuk/Desktop/Urban/JS/Jelly-Beans-Project/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -69,6 +68,11 @@
       <option name="presentableId" value="Default" />
       <updated>1725456222810</updated>
       <workItem from="1725456226992" duration="721000" />
+      <workItem from="1725545526304" duration="3730000" />
+      <workItem from="1725756835722" duration="72000" />
+      <workItem from="1726126683017" duration="9210000" />
+      <workItem from="1726233159368" duration="3056000" />
+      <workItem from="1726244372366" duration="535000" />
     </task>
     <servers />
   </component>
